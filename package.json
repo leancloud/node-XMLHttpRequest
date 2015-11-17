@@ -6,7 +6,10 @@
     "name": "Dan DeFelippi",
     "url": "http://driverdan.com"
   },
-  "keywords": ["xhr", "ajax"],
+  "keywords": [
+    "xhr",
+    "ajax"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,5 +23,8 @@
     "lib": "./lib",
     "example": "./example"
   },
-  "main": "./lib/XMLHttpRequest.js"
+  "main": "./lib/XMLHttpRequest.js",
+  "dependencies": {
+    "forever-agent": "^0.6.1"
+  }
 }
