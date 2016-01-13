@@ -1,7 +1,7 @@
 {
   "name": "leancloud-xmlhttprequest",
   "description": "XMLHttpRequest for Node",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "author": {
     "name": "Dan DeFelippi",
     "url": "http://driverdan.com"
@@ -23,6 +23,7 @@
     "example": "./example"
   },
   "main": "./lib/XMLHttpRequest.js",
+  "browser": "./lib/XMLHttpRequest.browser.js",
   "dependencies": {
     "forever-agent": "^0.6.1"
   }
